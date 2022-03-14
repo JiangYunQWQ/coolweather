@@ -9,7 +9,7 @@ public class County extends LitePalSupport {
     private int id;//县id
     private String countyName;//县名
     private String weatherId;//对应县天气
-    private int cityIdi;//所属城市id
+    private int cityId;//所属城市id
 
     public int getId() {
         return id;
@@ -35,11 +35,11 @@ public class County extends LitePalSupport {
         this.weatherId = weatherId;
     }
 
-    public int getCityIdi() {
-        return cityIdi;
+    public int getCityId() {
+        return cityId;
     }
 
-    public void setCityIdi(int cityIdi) {
-        this.cityIdi = cityIdi;
+    public void setCityId(int cityIdi) {
+        this.cityId = cityIdi;
     }
 }
