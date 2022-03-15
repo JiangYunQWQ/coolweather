@@ -29,6 +29,8 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'//侧边栏
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"//下拉刷新
     implementation 'org.litepal.guolindev:core:3.2.3'//LitePal依赖对数据库操作
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'//Okhttp依赖进行网络请求
     implementation 'com.google.code.gson:gson:2.8.6'//GSON依赖解析JSON数据
